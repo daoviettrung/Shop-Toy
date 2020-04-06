@@ -521,7 +521,7 @@
                     <!-- Product Single -->
                     <?php
                     $result = pg_query($dbconn, $sql);
-                    while ($row = pg_fetch_row($result)) {
+                    while ($row = pg_fetch_array($result)) {
                         ?>
                         <div class="col-md-3 col-sm-6 col-xs-6" >
                             <div class="product product-single" >
